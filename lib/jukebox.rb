@@ -13,6 +13,8 @@ def play(songs)
   input = gets.strip
   if songs[input.to_i] != nil
     puts songs[input.to_i - 1]
+  elsif songs.include?(input)
+    puts input
   end
   # binding.pry
 end 
