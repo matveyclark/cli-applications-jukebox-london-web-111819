@@ -13,7 +13,8 @@ def play(songs)
   input = gets.strip
   if songs.include?(input)
     puts input
-  binding.pry
+  end
+  # binding.pry
 end 
 
 def list(songs)
