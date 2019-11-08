@@ -11,7 +11,8 @@ end
 def play(songs)
   puts "/Please enter a song name or number:/"
   input = gets.strip
-  if input.to_i == 
+  if songs[input.to_i] != nil
+    puts songs[input.to_i - 1]
   end
   # binding.pry
 end 
