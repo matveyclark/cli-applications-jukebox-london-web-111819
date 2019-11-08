@@ -11,6 +11,8 @@ end
 def play(songs)
   puts "/Please enter a song name or number:/"
   input = gets.strip
+  if songs.include?(input)
+    puts input
   binding.pry
 end 
 
