@@ -9,14 +9,16 @@ def help
 end
 
 def play(songs)
-  puts "/Please enter a song name or number:/"
-  input = gets.strip
-  if songs[input.to_i] != nil
-    puts songs[input.to_i - 1]
-  # elsif songs.include?(input)
-  #   puts input
-  end
-  # binding.pry
+  puts "Please enter a song name or number:"
+  user_response = gets.downcase.chomp 
+
+  if (1..9).to_a.include?(user_response.to_i)
+    puts "Playing #{songs[user_response.to_i - 1]}"
+    elsif songs.include?(user_response)
+    puts "Playing #{user_response}"
+  else 
+    puts "Invalid input, please try again"
+  end 
 end 
 
 def list(songs)
