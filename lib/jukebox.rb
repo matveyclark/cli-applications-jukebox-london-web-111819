@@ -35,7 +35,7 @@ def exit_jukebox
 end
 
 def run 
-  
+  puts "Please enter a command:"
 end
 
 # This method is a little trickier. It is where we pull together all of our other
