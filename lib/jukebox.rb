@@ -34,7 +34,7 @@ def exit_jukebox
   return
 end
 
-def run 
+def run(arg)
   puts "Please enter a command:"
   input = gets.strip
   if input == 'exit'
