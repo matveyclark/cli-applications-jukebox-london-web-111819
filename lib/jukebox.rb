@@ -37,6 +37,9 @@ end
 def run 
   puts "Please enter a command:"
   input = gets.strip
+  if input == 'exit'
+    exit_jukebox
+  end
 end
 
 # This method is a little trickier. It is where we pull together all of our other
