@@ -33,3 +33,7 @@ def exit_jukebox
   puts '/Goodbye/'
   return
 end
+
+def run 
+  
+end
