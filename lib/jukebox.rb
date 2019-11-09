@@ -34,10 +34,13 @@ def exit_jukebox
   return
 end
 
-def run(arg)
+def run(songs)
  input = ""
  while input != 'exit'
   input = gets.strip
+  
+  if input == 'list'
+    list(songs)
  end
 end
 
