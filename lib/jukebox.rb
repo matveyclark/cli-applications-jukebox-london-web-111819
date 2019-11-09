@@ -35,6 +35,7 @@ def exit_jukebox
 end
 
 def run(songs)
+  puts ""
  input = ""
  while input != 'exit'
   input = gets.strip
