@@ -49,8 +49,6 @@ def run(songs)
   elsif input == 'play'
     play(songs)
   end
-  
-  
  end
 end
 
