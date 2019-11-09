@@ -39,9 +39,15 @@ def run(songs)
  input = ""
  while input != 'exit'
   input = gets.strip
-  
+
   if input == 'list'
     list(songs)
+    
+  elsif input == 'help'
+    help
+    
+  elsif input == 'play'
+    play(songs)
   end
  end
 end
