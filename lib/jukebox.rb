@@ -37,7 +37,8 @@ end
 def run(arg)
  input = ""
  while input != 'exit'
- 
+  input = gets.strip
+ end
 end
 
 # This method is a little trickier. It is where we pull together all of our other
