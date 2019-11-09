@@ -36,6 +36,7 @@ end
 
 def run(arg)
  input = ""
+ while input != 'exit'
  
 end
 
